@@ -1,10 +1,10 @@
 1. git --version
    Checks the installed Git version.
 
-2. git config --global user.name "Your Name"
+2. git config --global user.name "Harsh"
    Sets the global Git username.
 
-3. git config --global user.email "your-email@example.com"
+3. git config --global user.email "harshaggarwal005@gmail.com"
    Sets the global Git email address.
 
 4. git config --global --list
@@ -73,7 +73,7 @@
 25. git revert HEAD
     Creates a new commit that reverses the changes introduced by the latest commit.
 
-26. git remote add origin https://github.com/YOUR_USERNAME/GitAssignment.git
+26. git remote add origin https://github.com/CodeWithHarsh2/GitAssignment.git
     Connects the local repository to the remote GitHub repository.
 
 27. git remote -v
