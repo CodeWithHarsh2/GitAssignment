@@ -1,0 +1,101 @@
+1. git --version
+   Checks the installed Git version.
+
+2. git config --global user.name "Your Name"
+   Sets the global Git username.
+
+3. git config --global user.email "your-email@example.com"
+   Sets the global Git email address.
+
+4. git config --global --list
+   Displays the configured Git settings.
+
+5. git init -b main
+   Initializes a new local Git repository with main as the initial branch.
+
+6. git status
+   Displays the current repository status and changed files.
+
+7. git add .
+   Adds all files in the current directory to the staging area.
+
+8. git commit -m "Initial commit: Add HTML files"
+   Records the initial project files in Git history.
+
+9. git add index.html
+   Stages changes made to index.html.
+
+10. git commit -m "Update index.html with additional content"
+    Records the modifications to index.html.
+
+11. git branch feature
+    Creates a new branch named feature.
+
+12. git branch
+    Lists all local branches and identifies the current branch.
+
+13. git switch feature
+    Switches the working branch to feature.
+
+14. git add about.html
+    Stages modifications made to about.html.
+
+15. git commit -m "Add feature description to about page"
+    Commits the feature branch changes.
+
+16. git switch main
+    Switches back to the main branch.
+
+17. git merge feature
+    Merges the feature branch into main.
+
+18. git log --oneline --graph --all
+    Displays the commit history of all branches in graph format.
+
+19. git log --oneline --decorate --all --graph
+    Displays commit history with branch and HEAD references.
+
+20. git add .gitignore
+    Stages the .gitignore file.
+
+21. git commit -m "Add gitignore for log files and temp folder"
+    Records the .gitignore configuration.
+
+22. git add extra.txt
+    Stages the additional file created for the undo demonstration.
+
+23. git commit -m "Add extra file for undo demonstration"
+    Creates an additional commit for the undo demonstration.
+
+24. git log -1 --oneline
+    Displays the most recent commit.
+
+25. git revert HEAD
+    Creates a new commit that reverses the changes introduced by the latest commit.
+
+26. git remote add origin https://github.com/YOUR_USERNAME/GitAssignment.git
+    Connects the local repository to the remote GitHub repository.
+
+27. git remote -v
+    Displays the configured remote repository URLs.
+
+28. git branch -M main
+    Renames the current branch to main if necessary.
+
+29. git push -u origin main
+    Pushes the main branch to GitHub and sets its upstream tracking branch.
+
+30. git push -u origin feature
+    Pushes the feature branch to GitHub and sets its upstream tracking branch.
+
+31. git add git_commands.txt
+    Stages the command documentation file.
+
+32. git commit -m "Add Git command documentation"
+    Commits the Git command documentation to the repository.
+
+33. git push
+    Pushes the latest local commits to the configured remote repository.
+
+34. git status
+    Verifies that the working tree is clean.
